@@ -1,5 +1,5 @@
 {
-  "name": "cacheloader",
+  "name": "layered-cache-loader",
   "main": "./build/index.js",
   "scripts": {
     "build": "tsc",
@@ -11,7 +11,7 @@
     "prepublishOnly": "yarn build",
     "test": "mocha --require ts-node/register ./test/*.spec.ts"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "license": "MIT",
   "author": "MiseryLee <miserylee@foxmail.com>",
@@ -29,5 +29,12 @@
     "tslint": "5.20.1",
     "tslint-clean-code": "0.2.10",
     "typescript": "3.7.5"
+  },
+  "dependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/ioredis": "^4.14.4",
+    "dataloader": "^2.0.0",
+    "debug": "^4.1.1",
+    "ioredis": "^4.14.1"
   }
 }
