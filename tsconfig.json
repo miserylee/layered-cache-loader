@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "target": "es2017",
-    "lib": ["es2017"],
+    "lib": [
+      "es2017"
+    ],
     "module": "commonjs",
     "removeComments": true,
     "strict": true,
@@ -12,7 +14,8 @@
     "alwaysStrict": true,
     "moduleResolution": "node",
     "outDir": "build",
-    "sourceMap": true
+    "sourceMap": true,
+    "declaration": true
   },
   "include": [
     "src/**/*.ts"
