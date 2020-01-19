@@ -11,12 +11,15 @@
     "prepublishOnly": "yarn build",
     "test": "mocha --require ts-node/register ./test/*.spec.ts"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "license": "MIT",
   "author": "MiseryLee <miserylee@foxmail.com>",
   "description": "Add cache layers based on dataloader.",
   "typings": "./build/index.d.ts",
+  "repository": {
+    "url": "https://github.com/miserylee/layered-cache-loader"
+  },
   "pre-commit": [
     "prepublishOnly"
   ],
